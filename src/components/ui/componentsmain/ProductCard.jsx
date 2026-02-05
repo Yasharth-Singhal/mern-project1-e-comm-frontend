@@ -79,7 +79,7 @@ const ProductCard = ({ product }) => {
 				</Heading>
 
 				<Text fontWeight="bold" fontSize="xl" color="fg.muted" mb={4}>
-					${product.price}
+					₹{product.price}
 				</Text>
 
 				<HStack spacing={3}>
