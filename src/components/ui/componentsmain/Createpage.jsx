@@ -7,7 +7,7 @@ const CreatePage = () => {
 
 	const [newProduct, setNewProduct] = useState({
 		name: "",
-		price: 0,
+		price: "",
 		image: "",
 	});
 
@@ -22,6 +22,7 @@ const CreatePage = () => {
 			description: message,
 			type: success ? "success" : "error",
 		});
+		alert(message);
 
 		setNewProduct({
 			name: "",
