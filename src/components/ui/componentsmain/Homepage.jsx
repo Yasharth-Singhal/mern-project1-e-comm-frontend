@@ -44,7 +44,7 @@ const HomePage = () => {
 						fontSize="xl"
 						textAlign="center"
 						fontWeight="bold"
-						color="red.500"
+						color="blue.500"
 					>
 						No products found 😢{" "}
 						

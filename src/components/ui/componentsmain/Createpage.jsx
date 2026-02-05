@@ -1,7 +1,3 @@
-
-
-
-
 import { Box, Button, Container, Heading, Input, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import { toaster } from "../toaster";
