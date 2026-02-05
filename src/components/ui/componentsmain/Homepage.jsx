@@ -19,11 +19,11 @@ const HomePage = () => {
 				<Text
 					fontSize="3xl"
 					fontWeight="bold"
-					bgGradient="linear(to-r, blue.400, cyan.500)"
+					bgGradient="linear(to-r, cyan.400, blue.500)"
 					bgClip="text"
 					textAlign="center"
 				>
-					Current Products 
+					Current Products 🚀
 				</Text>
 
 				<SimpleGrid
@@ -44,14 +44,14 @@ const HomePage = () => {
 						fontSize="xl"
 						textAlign="center"
 						fontWeight="bold"
-						color="gray.500"
+						color="red.500"
 					>
 						No products found 😢{" "}
 						
 						<Link to="/create">
 							<Text
 								as="span"
-								color="red.500"
+								color="grey.500"
 								_hover={{ textDecoration: "underline" }}
 							>
 								Create a product

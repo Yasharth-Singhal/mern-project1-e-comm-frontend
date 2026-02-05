@@ -1,4 +1,7 @@
 
+
+
+
 import { Box, Button, Container, Heading, Input, VStack } from "@chakra-ui/react";
 import { useState } from "react";
 import { toaster } from "../toaster";
@@ -49,7 +52,6 @@ const CreatePage = () => {
 					<VStack spacing={4}>
 
 						<Input
-							
 							placeholder="Product Name"
 							value={newProduct.name}
 							onChange={(e) =>

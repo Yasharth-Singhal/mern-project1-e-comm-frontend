@@ -15,8 +15,7 @@ const Navbar = () => {
 			>
 
 				<Text
-					color={"red"}
-					fontSize={25}
+					color={"orange"}
 				>
 					<Link to="/">Product Store 🛒</Link>
 				</Text>
