@@ -7,7 +7,7 @@ const CreatePage = () => {
 
 	const [newProduct, setNewProduct] = useState({
 		name: "",
-		price,
+		price: 0,
 		image: "",
 	});
 
