@@ -60,6 +60,7 @@ const ProductCard = ({ product }) => {
 			shadow="lg"
 			rounded="lg"
 			overflow="hidden"
+			margin={3}
 			transition="all 0.3s"
 			_hover={{ transform: "translateY(-6px)", shadow: "2xl" }}
 			bg="bg.surface"
