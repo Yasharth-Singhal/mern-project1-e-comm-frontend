@@ -44,14 +44,14 @@ const HomePage = () => {
 						fontSize="xl"
 						textAlign="center"
 						fontWeight="bold"
-						color="red.500"
+						color="grey.500"
 					>
 						No products found 😢{" "}
 						
 						<Link to="/create">
 							<Text
 								as="span"
-								color="grey.500"
+								color="red.500"
 								_hover={{ textDecoration: "underline" }}
 							>
 								Create a product
